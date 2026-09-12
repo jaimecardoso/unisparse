@@ -14,8 +14,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Function
 from typing import Tuple, Optional
-from unimodal import unimodalProjection
-# Import sparsemax from external library
 
 try:
     from entmax import sparsemax as entmax_sparsemax
