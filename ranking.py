@@ -27,9 +27,7 @@ higher_better = {
     "TIME": False,
 }
 
-models_to_ignore = ["UnimodalNetsparse", "StochasticUnimodalMLPb0a0", "StochasticUnimodalMLPb0a1", "StochasticUnimodalMLPb0a15"]
-#StochasticUnimodalMLPb0a110
-#StochasticUnimodalMLPb0a15 "Sparsemax", 
+models_to_ignore = ["UnimodalNetsparse"]
 
 print (df)
 df = df[~df["Model"].isin(models_to_ignore)]
